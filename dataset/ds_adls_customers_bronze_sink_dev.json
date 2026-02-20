@@ -1,0 +1,25 @@
+{
+	"name": "ds_adls_customers_bronze_sink_dev",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "ls_adls_customers_bronze_sink_dev",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "customers_sink.csv",
+				"folderPath": "bronze/customers",
+				"fileSystem": "retail"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
