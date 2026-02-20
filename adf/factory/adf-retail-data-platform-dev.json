@@ -1,0 +1,9 @@
+{
+	"name": "adf-retail-data-platform-dev",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "31016c7a-0f88-422b-ad0e-df8b65631da5",
+		"tenantId": "121fbb71-d449-4440-aa38-4d3ce05c702d"
+	}
+}
