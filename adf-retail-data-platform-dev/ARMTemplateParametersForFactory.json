@@ -1,0 +1,39 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adf-retail-data-platform-dev"
+		},
+		"ls_adls_customers_bronze_dev_accountKey": {
+			"value": ""
+		},
+		"ls_adls_customers_bronze_sink_dev_accountKey": {
+			"value": ""
+		},
+		"ls_adls_orders_dev_accountKey": {
+			"value": ""
+		},
+		"ls_adls_retail_dev_accountKey": {
+			"value": ""
+		},
+		"ls_orders_sink_accountKey": {
+			"value": ""
+		},
+		"ls_adls_customers_bronze_dev_properties_typeProperties_url": {
+			"value": "https://stretaildataplatform001.dfs.core.windows.net/"
+		},
+		"ls_adls_customers_bronze_sink_dev_properties_typeProperties_url": {
+			"value": "https://stretaildataplatform001.dfs.core.windows.net/"
+		},
+		"ls_adls_orders_dev_properties_typeProperties_url": {
+			"value": "https://stretaildataplatform001.dfs.core.windows.net/"
+		},
+		"ls_adls_retail_dev_properties_typeProperties_url": {
+			"value": "https://stretaildataplatform001.dfs.core.windows.net/"
+		},
+		"ls_orders_sink_properties_typeProperties_url": {
+			"value": "https://stretaildataplatform001.dfs.core.windows.net/"
+		}
+	}
+}
