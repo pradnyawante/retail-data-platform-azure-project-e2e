@@ -1,0 +1,9 @@
+{
+	"name": "newadfpradnyasw",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "faf02e28-76b1-48b1-8d99-d9fb11b97d1d",
+		"tenantId": "341fd87b-1927-4825-8334-f57c122cd7ca"
+	}
+}
